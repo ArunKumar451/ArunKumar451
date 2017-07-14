@@ -7,9 +7,9 @@
 .navbar {
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 80, 90);
+    background-color: rgb(16, 16, 16);
     min-width: 100vw;
-    position: fixed;
+    position: absolute;
     z-index: 5;
 }
 
@@ -20,12 +20,11 @@
     background-size: cover;
     min-width: 100vw;
     min-height: 100vh;
-    position: fixed;
     z-index: 0;
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: fixed;
 }
 
 .navbar-inverse .navbar-brand {
@@ -36,4 +35,44 @@ body {
 
 #abt {
     color: black;
+}
+
+#qut img {
+    padding: 4rem;
+    max-width: 30rem;
+    min-width: 9rem;
+}
+
+#qut {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #34302f;
+}
+
+#quote {
+    color: aliceblue;
+    float: left;
+    margin-top: 10rem;
+    padding: 1rem;
+}
+
+#quote h5 {
+    float: left;
+    font-family: cursive;
+    padding: 2rem;
+}
+
+#dp {
+    background-image: url(conhecimento-compartilhado.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    min-width: 20vw;
+    min-height: 65vh;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+}
+
+#secondpage {
+    background-color: #000000;
 }
