@@ -7,34 +7,44 @@
 .navbar {
     margin: 0;
     padding: 0;
-    background-color: rgb(16, 16, 16);
+    background-color: rgba(0, 0, 0, 0.4);
     min-width: 100vw;
     position: absolute;
+    border: none;
     z-index: 5;
 }
 
 .jumbotron {
-    background-image: url(images/for.png);
+    background-image: url(https://static.pexels.com/photos/39811/pexels-photo-39811.jpeg);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     min-width: 100vw;
+    color: #bfbfbf;
     min-height: 100vh;
+    margin: 0;
     z-index: 0;
 }
 
+#abt {
+    width: 70vw;
+    text-align: justify;
+    margin-top: 3rem;
+    color: #ada5a5;
+    font-family: 'Fresca', sans-serif;
+    line-height: 4.5rem;
+}
+
 body {
-    overflow-x: fixed;
+    overflow-x: hidden;
 }
 
 .navbar-inverse .navbar-brand {
     color: white;
     min-width: 100vw;
     margin-left: -4rem;
-}
-
-#abt {
-    color: black;
 }
 
 #qut img {
@@ -46,7 +56,6 @@ body {
 #qut {
     margin-top: 4rem;
     margin-bottom: 4rem;
-    background-color: #34302f;
 }
 
 #quote {
@@ -74,5 +83,10 @@ body {
 }
 
 #secondpage {
-    background-color: #000000;
+    background: linear-gradient(to bottom right, #212121, #2f2828);
+}
+
+#pp {
+    border: 1rem solid #212121;
+    box-shadow: 0 0 5rem 0.2rem #212121;
 }
