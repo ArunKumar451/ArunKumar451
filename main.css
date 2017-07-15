@@ -15,7 +15,7 @@
 }
 
 .jumbotron {
-    background-image: url(https://static.pexels.com/photos/39811/pexels-photo-39811.jpeg);
+    background-image: url(images/cover.jpg);
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
