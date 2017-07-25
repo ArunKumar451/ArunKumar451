@@ -27,6 +27,7 @@
     min-height: 100vh;
     margin: 0;
     z-index: 0;
+    text-shadow: 2px 1px 5px #212145;
 }
 
 body {
@@ -88,6 +89,10 @@ body {
 
 .section1 {
     padding: 1em;
+}
+
+.section1 a:hover {
+    text-shadow: 1px 1px red;
 }
 
 .section1 a {
