@@ -18,9 +18,10 @@
     background-image: url(m.jpeg);
     background-position: bottom center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     min-width: 100vw;
     color: #000000;
     min-height: 100vh;
@@ -33,22 +34,15 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-    color: white;
+    color: black;
     min-width: 100vw;
     margin-left: -4rem;
 }
 
-#qut {
-    background-image: url(nightstreet.jpeg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-blend-mode: multiply;
-}
+#qut {}
 
 #quote {
-    color: #d8d8d8;
+    color: #050505;
     float: left;
     margin-top: 5rem;
     margin-right: 1em;
@@ -56,10 +50,10 @@ body {
 }
 
 #quote h5 {
-    border-top: 1px solid blue;
-    border-right: 1px solid blue;
-    border-left: 1px solid blue;
-    border-bottom: 5px solid blue;
+    border-top: 1px solid #09090d;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 5px solid #000000;
     float: left;
     font-family: cursive;
     padding: 2rem;
@@ -73,40 +67,62 @@ body {
     background-attachment: inherit;
     background-size: cover;
     min-width: 35vw;
-    min-height: 64vh;
+    min-height: 43vh;
     margin-top: 1rem;
     min-width: 1em;
 }
 
 #secondpage {
-    padding: 2rem;
+    background-image: url();
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+    padding: 1rem;
+    height: auto;
+    width: auto;
 }
 
 .section1 {
-    border-bottom: 0.5px solid #000000;
-    margin-top: 1em;
     padding: 1em;
-    height: auto;
 }
 
 .section1 a {
-    color: black;
-    padding: 0.5rem;
+    color: #191717;
+    padding: 2px;
 }
 
 #thirddpage {
-    color: aliceblue;
-    background-image: url(face.jpeg);
+    margin-top: rem;
+    color: #0f0f0f;
+    background-image: url(larch-conifer-cone-branch-tree-40896.jpeg);
     background-repeat: no-repeat;
-    background-position: center right;
-    background-image: url(face.jpeg);
+    text-align: center;
+    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     background-size: cover;
-    ;
     padding: 4rem;
+}
+
+#thirddpage p {
+    font-size: 2rem;
+    line-height: 3rem
 }
 
 #aboutdp {
     margin: 0;
+}
+
+.secondpagetxt {
+    padding: 2em;
+    line-height: 3rem;
+}
+
+.secondpage {
+    margin-top: 2rem;
+    ;
+    padding: 2em;
 }
