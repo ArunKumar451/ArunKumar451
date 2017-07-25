@@ -22,7 +22,7 @@
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-width: 100vw;
+    min-width: auto;
     color: #000000;
     min-height: 100vh;
     margin: 0;
