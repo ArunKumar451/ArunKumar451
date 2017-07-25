@@ -42,6 +42,7 @@ body {
 #qut {}
 
 #quote {
+    font-family: cursive;
     color: #ffffff;
     float: left;
     margin-top: 5rem;
@@ -60,14 +61,14 @@ body {
 }
 
 #dp {
-    border: 2px solid black;
+    border: 2px solid #171557;
     background-image: url(12300_jpg_srz.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-attachment: inherit;
     background-size: cover;
     min-width: 35vw;
-    min-height: 43vh;
+    min-height: 64vh;
     margin-top: 1rem;
     min-width: 1em;
 }
