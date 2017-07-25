@@ -50,10 +50,10 @@ body {
 }
 
 #quote h5 {
-    border-top: 1px solid #09090d;
-    border-right: 1px solid #000000;
-    border-left: 1px solid #000000;
-    border-bottom: 5px solid #000000;
+    border-top: 1px solid #f6f6f8;
+    border-right: 1px solid #fcf6f6;
+    border-left: 1px solid #fcfcfc;
+    border-bottom: 5px solid #fdfdfd;
     float: left;
     font-family: cursive;
     padding: 2rem;
