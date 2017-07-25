@@ -16,11 +16,14 @@
 
 .jumbotron {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url(m.jpeg);
     background-position: bottom center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.2);
 =======
+=======
+>>>>>>> 5561f01ed6bf0e59342aa9d85c699860fbc5728a
     background-image: url(images/cover.jpg);
     background-color: rgba(0, 0, 0, 0.3);
 >>>>>>> 5561f01ed6bf0e59342aa9d85c699860fbc5728a
@@ -48,7 +51,11 @@ body {
 
 #quote {
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #050505;
+=======
+    color: #bfbfbf
+>>>>>>> 5561f01ed6bf0e59342aa9d85c699860fbc5728a
 =======
     color: #bfbfbf
 >>>>>>> 5561f01ed6bf0e59342aa9d85c699860fbc5728a
