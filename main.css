@@ -1,135 +1,147 @@
 .navbar {
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    min-width: 100vw;
-    position: absolute;
-    border: none;
-    z-index: 5;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	min-width: 100vw;
+	position: absolute;
+	border: none;
+	z-index: 5;
 }
 
 .jumbotron img {
-    border-radius: 100%;
-    max-width: 20vw;
-    min-width: 20vh
+	border-radius: 100%;
+	max-width: 20vw;
+	min-width: 20vh
 }
 
 .jumbotron {
-    background-image: url(m.jpeg);
-    background-position: bottom center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-width: auto;
-    color: #000000;
-    min-height: 100vh;
-    margin: 0;
-    z-index: 0;
-    text-shadow: 2px 1px 5px #212145;
+	background-image: url(m.jpeg);
+	background-position: bottom center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-width: auto;
+	color: #000000;
+	min-height: 100vh;
+	margin: 0;
+	z-index: 0;
+	text-shadow: 2px 1px 5px #212145;
 }
 
 body {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 .navbar-inverse .navbar-brand {
-    color: black;
-    min-width: 100vw;
-    margin-left: -4rem;
+	color: black;
+	min-width: 100vw;
+	margin-left: -4rem;
 }
 
 #qut {}
 
 #quote {
-    font-family: cursive;
-    color: #ffffff;
-    float: left;
-    margin-top: 5rem;
-    margin-right: 1em;
-    padding: 1rem;
+	font-family: sans-serif;
+	color: #ffffff;
+	float: left;
+	margin-top: 5rem;
+	margin-right: 1em;
+	padding: 1rem;
 }
 
 #quote h5 {
-    border-top: 1px solid #f6f6f8;
-    border-right: 1px solid #fcf6f6;
-    border-left: 1px solid #fcfcfc;
-    border-bottom: 5px solid #fdfdfd;
-    float: left;
-    font-family: cursive;
-    padding: 2rem;
+	border-top: 1px solid #f6f6f8;
+	border-right: 1px solid #fcf6f6;
+	border-left: 1px solid #fcfcfc;
+	border-bottom: 5px solid #fdfdfd;
+	float: left;
+	font-family: cursive;
+	padding: 2rem;
 }
 
 #dp {
-    border: 2px solid #171557;
-    background-image: url(12300_jpg_srz.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: inherit;
-    background-size: cover;
-    min-width: 35vw;
-    min-height: 64vh;
-    margin-top: 1rem;
-    min-width: 1em;
+	border: 2px solid #000000;
+	background-image: url(12300_jpg_srz.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: inherit;
+	background-size: cover;
+	min-width: 35vw;
+	min-height: 64vh;
+	margin-top: 1rem;
+	min-width: 1em;
 }
 
 #secondpage {
-    background-image: url(nightsky.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-blend-mode: multiply;
-    padding: 1rem;
-    height: auto;
-    width: auto;
+	background-image: url(wood.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 1rem;
+	height: auto;
+	width: auto;
+	border-bottom: 1px solid white;
 }
 
 .section1 {
-    padding: 1em;
+	background-color: #000000;
+	padding: 1em;
+	border-bottom: 1px solid white;
 }
 
 .section1 a:hover {
-    text-shadow: 1px 1px red;
+	text-shadow: 1px 1px #ed5656;
 }
 
 .section1 a {
-    color: #191717;
-    padding: 2px;
+	color: #fcfff1;
+	padding: 2px;
 }
 
 #thirddpage {
-    color: #0f0f0f;
-    background-image: url(larch-conifer-cone-branch-tree-40896.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-attachment: fixed;
-    height: auto;
-    width: auto;
-    padding: 4rem;
+	color: #ffffff;
+	background-image: url(larch-conifer-cone-branch-tree-40896.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: left left;
+	background-attachment: fixed;
+	height: auto;
+	width: auto;
+	padding: 4rem;
+	text-shadow: 2px 1px 5px #000000;
 }
 
 #thirddpage p {
-    font-size: 1.5em;
-    line-height: 3rem
+	text-align: center;
+	width: 75vw;
+	padding: 1em;
+	font-size: 2rem;
+	line-height: 3rem
 }
 
 #aboutdp {
-    margin: 0;
-}
-
-.secondpagetxt {
-    padding: 2em;
-    line-height: 3rem;
+	margin: 0;
 }
 
 .secondpage {
-    font-size: 2rem;
-    line-height: 3rem;
-    margin-top: 2rem;
-    color: aliceblue;
-    padding: 2em;
+	font-family: sans-serif;
+	font-size: 2rem;
+	line-height: 4rem;
+	margin-top: 2rem;
+	color: aliceblue;
+	padding: 2em;
+}
+
+.fourthpage {
+	color: aliceblue;
+	background-image: url(wood.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	width: auto;
+	height: 100vh;
 }
